@@ -4,6 +4,7 @@ var secondHands = document.getElementById('second-hand');
 var minHands = document.getElementById('min-hand');
 var hourHands = document.getElementById('hour-hand');
 
+//TODO: Fix the calc of the hours
 
 var currentDate = new Date();
 
