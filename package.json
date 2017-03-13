@@ -1,0 +1,13 @@
+{
+  "name": "secondtest",
+  "version": "1.0.0",
+  "description": "css + js clock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pug ./src/index.pug -o ./dist --pretty && cp ./src/index.js ./dist && cp ./src/style.css ./dist",
+    "watch": "pug ./src/index.pug -o ./dist --pretty --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
